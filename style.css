@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+    font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+  	font-weight: small; 
+  	font-style: normal;
+	color: #381f14;
+	background-color: #e5d7c3;
+	margin-left: 200px;
+	margin-right: 200px;
+	}
+
+h1 {
+    font-family: "Yeseva One", serif;
+  	font-size: 45px;
+  	font-style: normal;
+	color: #482925;
+	padding-left: 100px;
+	padding-right: 100px;
+		}
+h4 {
+	font-family: "Yeseva One", serif;
+  	font-weight: Large;
+  	font-style: normal;
+	color: #482925;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+h2 {
+	font-family: "Yeseva One", serif;
+  	font-size: 35px;
+  	font-style: normal;
+	color: #482925;
+	padding-left: 150px;
+}
+
+
+.rightAlign {
+	float: right;
+	padding-left: 20px
+}
+.leftAlign{
+	float:left;
+	padding-right: 20px
+}
+a {
+	color:#b6553f;
+	text-decoration: none;
+	font-weight: 550;
+			
+		}
+a:hover {
+	color: #ccb08a;
+	background-color: #b6553f; 
+	}
+footer {
+	padding: 100px;
+	background-color: #ccb08a;
+	color: #FFFDEF
+}
+header {
+    background-color: #dfb072;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.button a {
+    background-color: #814d41;
+    color: #d0832d;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.button a:hover {
+	background-color: #c77234;
+	color: #dfb072
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.twoColumn {
+	column-count: 2;
+	column-gap: 40px;
+}
+
+.imgBackground {
+}
+
+.pullQuote {
+	color: #7d8973;
+	font-family: "Yeseva One", serif;
+  	font-style: normal;
+	font-size: large;
+	padding-left: 50px;
+    padding-right: 50px;
+}
