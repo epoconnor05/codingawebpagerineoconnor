@@ -1,85 +1,102 @@
 @charset "UTF-8";
 body {
-    font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", sans-serif;
  	font-optical-sizing: auto;
   	font-weight: small; 
   	font-style: normal;
 	color: #381f14;
 	background-color: #e5d7c3;
-	margin-left: 200px;
-	margin-right: 200px;
-	}
+	margin: 0;
+}
+
 
 h1 {
     font-family: "Yeseva One", serif;
   	font-size: 45px;
   	font-style: normal;
 	color: #482925;
-	padding-left: 100px;
-	padding-right: 100px;
 		}
 h4 {
 	font-family: "Yeseva One", serif;
-  	font-weight: Large;
+  	font-weight: bolder;
   	font-style: normal;
-	color: #482925;
-	padding-left: 100px;
-	padding-right: 100px;
-	
+	color: #482925;	
 }
+
 h2 {
 	font-family: "Yeseva One", serif;
   	font-size: 35px;
   	font-style: normal;
-	color: #482925;
-	padding-left: 150px;
+	color: #814D41;
 }
+
+h3 {
+	color: #c77234;
+	font-family: "Yeseva One", serif;
+  	font-style: normal;
+	font-size: x-large;
+}
+
+h5 {
+	font-family: "Yeseva One", serif;
+  	font-style: normal;
+	color: #482925;	
+}
+
 
 
 .rightAlign {
 	float: right;
 	padding-left: 20px
 }
-.leftAlign{
+.leftAlign {
 	float:left;
 	padding-right: 20px
 }
 a {
 	color:#b6553f;
-	text-decoration: none;
 	font-weight: 550;
+	text-decoration: underline;
 			
 		}
+
 a:hover {
-	color: #ccb08a;
-	background-color: #b6553f; 
+	color: #d0832d;
 	}
+
 footer {
-	padding: 100px;
-	background-color: #ccb08a;
-	color: #FFFDEF
+	margin: 0;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #7d8973;
+	color: #e5d7c3;
 }
 header {
-    background-color: #dfb072;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+	padding-left: 50%;
+	padding-right: 100px;
 }
 
 .button a {
-    background-color: #814d41;
-    color: #d0832d;
+    background-color: #b6553f;
+    color: #e5d7c3;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 10px;
+	margin-top: 20px;
+	text-decoration: none;
+	
 }
 
 .button a:hover {
-	background-color: #c77234;
-	color: #dfb072
+	background-color: #ccb08a;
+	color: #b6553f;
+	text-decoration: none;
 }
 
 .center {
@@ -91,16 +108,109 @@ header {
 .twoColumn {
 	column-count: 2;
 	column-gap: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 40px;
 }
 
 .imgBackground {
 }
 
 .pullQuote {
-	color: #7d8973;
-	font-family: "Yeseva One", serif;
-  	font-style: normal;
-	font-size: large;
-	padding-left: 50px;
-    padding-right: 50px;
+	padding-left: 250px;
+	padding-right: 250px;
+
+}
+.threeColumn {
+	column-count: 3;
+	column-gap: 40px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: #e5d7c3;
+}
+
+.subheaderPadding {
+	padding-left: 150px; 
+}
+
+.bodyPadding {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.sectionOne {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.sectionTwo {
+	margin: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom:60px;
+	color: #29170F;
+	background-color: #7d8973;
+}
+
+.sectionThree {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+	
+}
+.sectionFour {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+}
+
+.sectionFive {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+	
+}
+
+.sectionSix {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+}
+
+.sectionSeven {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+}
+
+.sectionEight {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+ 
+
+aside {
+	position: relative;
+	float: right;
+	background-color: #ccb08a;
+	color: #381f14;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	padding-left: 30px;
+	padding-right: 60px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	border-radius: 50px;
+}
+
+.subheaderSpecial {
+	padding-left: 150px;
+	color: #5e3a1e;
 }
