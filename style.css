@@ -1,12 +1,16 @@
 @charset "UTF-8";
 body {
 	font-family: "Montserrat", sans-serif;
- 	font-optical-sizing: auto;
+ 	font-size: 15pt;
   	font-weight: small; 
   	font-style: normal;
 	color: #381f14;
 	background-color: #e5d7c3;
 	margin: 0;
+}
+
+p {
+	line-height: 1.45em;
 }
 
 
@@ -20,7 +24,8 @@ h4 {
 	font-family: "Yeseva One", serif;
   	font-weight: bolder;
   	font-style: normal;
-	color: #482925;	
+	color: #482925;
+	font-size: 19pt;
 }
 
 h2 {
@@ -47,36 +52,36 @@ h5 {
 
 .rightAlign {
 	float: right;
-	padding-left: 20px
+	padding-right: 200px;
 }
 .leftAlign {
 	float:left;
 	padding-right: 20px
 }
 a {
-	color:#b6553f;
+	color:#814D41;
 	font-weight: 550;
 	text-decoration: underline;
 			
 		}
 
 a:hover {
-	color: #d0832d;
+	color: #b6553f;
 	}
 
 footer {
 	margin: 0;
-	padding-right: 100px;
-	padding-left: 100px;
+	padding-right: 350px;
+	padding-left: 250px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #7d8973;
-	color: #e5d7c3;
+	background-color: #ccb08a;
+	color: #381f14;
 }
 header {
-    padding-top: 100px;
-    padding-bottom: 100px;
-	padding-left: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 150px;
 	padding-right: 100px;
 }
 
@@ -124,9 +129,6 @@ header {
 .threeColumn {
 	column-count: 3;
 	column-gap: 40px;
-	padding-left: 200px;
-	padding-right: 200px;
-	color: #e5d7c3;
 }
 
 .subheaderPadding {
@@ -138,55 +140,56 @@ header {
 	padding-right: 200px;
 }
 
-.sectionOne {
+.sectionOneTypography {
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 30px;
 	padding-bottom: 80px;
 }
 
-.sectionTwo {
-	margin: 0;
-	padding-left: 100px;
-	padding-right: 100px;
+.sectionTwoTypography {
+	margin-left: 250px;
+	margin-right:250px;
+	padding-left: 60px;
+	padding-right: 60px;
 	padding-top: 30px;
 	padding-bottom:60px;
-	color: #29170F;
+	border-radius: 50px;
+	color: #e5d7c3;
 	background-color: #7d8973;
 }
 
-.sectionThree {
+.sectionThreeTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
 	
 }
-.sectionFour {
+.sectionFourTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
 }
 
-.sectionFive {
+.sectionFiveTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
 	
 }
 
-.sectionSix {
+.sectionSixTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
 }
 
-.sectionSeven {
+.sectionSevenTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
 }
 
-.sectionEight {
+.sectionEightTypography {
 	margin-right: 100px;
 	margin-left: 100px;
 	padding-top: 30px;
@@ -194,23 +197,43 @@ header {
 }
  
 
-aside {
+.asideTypography {
 	position: relative;
 	float: right;
-	background-color: #ccb08a;
-	color: #381f14;
-	margin-left: 200px;
-	margin-right: 200px;
+	color: #e5d7c3;
+	background-color: #7d8973;
+	margin-left: 250px;
+	margin-right: 250px;
 	margin-bottom: 40px;
-	margin-top: 40px;
-	padding-left: 30px;
+	margin-top: 20px;
+	padding-left: 60px;
 	padding-right: 60px;
 	padding-top: 30px;
 	padding-bottom:30px;
 	border-radius: 50px;
 }
 
-.subheaderSpecial {
+.subheaderSpecialTypography {
 	padding-left: 150px;
 	color: #5e3a1e;
+}
+
+.planingWebTypography {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #5e3a1e;
+}
+
+.imgcenter {
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	padding-top: 30px
+}
+
+.leftFloat {
+	float: left;
+	padding-left: 
+	
 }
