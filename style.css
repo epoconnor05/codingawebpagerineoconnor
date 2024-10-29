@@ -178,13 +178,13 @@ header {
 	text-decoration: underline;
 }
 
-.sectionOneTypography {
+.typographyOne {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-bottom: 80px;
 }
 
-.sectionTwoTypography {
+.typographyTwo {
 	margin-left: 15%;
 	margin-right: 15%;
     padding-left: 5%;
@@ -196,38 +196,38 @@ header {
 	background-color: #7d8973;
 }
 
-.sectionThreeTypography {
+.typographyThree {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
 	
 }
-.sectionFourTypography {
+.typographyFour {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
 }
 
-.sectionFiveTypography {
+.typographyFive {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
 	
 }
 
-.sectionSixTypography {
+.typographySix {
 	margin-left: 13%;
 	margin-right: 13%;;
 	padding-top: 3%;
 }
 
-.sectionSevenTypography {
+.typographySeven {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
 }
 
-.sectionEightTypography {
+.typographyEight {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
@@ -337,6 +337,97 @@ header {
 }
 
 .colorSix {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesOne {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesTwo {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesThree {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesFour{
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesFive {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesSix {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesSeven {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesEight {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesNine {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesTen {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesEleven {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesTwelve {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principlesThirteen {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
