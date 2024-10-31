@@ -90,6 +90,8 @@ h5 {
 }
 .leftAlign {
 	float:left; 
+	padding-right: 6%;
+	padding-bottom: 3%;
 }
 a {
 	color:#814D41;
@@ -174,12 +176,13 @@ br {
 }
 
 .subheaderPadding {
-	padding-left: 7%; 
+	padding-left: 7%;
+	padding-right: 40%;
 }
 
 .bodyPadding {
 	padding-left: 14%;
-	padding-right: 20%;
+	padding-right: 14%;
 }
 
 .listPadding {
@@ -264,9 +267,6 @@ br {
 	border-radius: 50px;
 }
 
-.orderdList {
-	
-}
 
 .subheaderSpecialTypography {
 	padding-left: 150px;
@@ -319,10 +319,14 @@ br {
 }
 
 .colorOne {
-	margin-left: 13%;
-	margin-right: 13%;
+	margin-left: 15%;
+	margin-right: 15%;
+
 	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-bottom:3%;
+	border-radius: 50px;
+	color: #e5d7c3;
+	background-color: #7d8973;
 }
 
 .colorTwo {
@@ -364,6 +368,7 @@ br {
 	margin-right: 13%;
 	padding-top: 3%;
 	padding-bottom: 3%;
+	background-color:
 }
 
 .principlesTwo {
@@ -450,7 +455,39 @@ br {
 	padding-bottom: 3%;
 }
 
+.principlesListSubheader{
+	padding-left: 7%;
+	padding-right: 15%;
+}
+
 img[src="img/StefanoPeschiera.jpg"] {
 	border-radius: 50%;
-	 margin: 0 3% 0 0;
+	margin: 0 3% 0 0;
+	float: left;
+}
+
+.aboutIntro {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 15%;
+	padding-bottom: 3%;	
+}
+
+.aboutDescription {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.aboutBio {
+	margin-left: 15%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+
+.circleImg {
+	border-radius: 10%;
 }
