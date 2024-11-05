@@ -21,7 +21,7 @@ ul.topnav {
   z-index: 10;
 }
 
-ul.topnav li {float: left; width:25%;}
+ul.topnav li {float: left; width: 25%;}
 
 ul.topnav li a {
   display: block;
