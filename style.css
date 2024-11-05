@@ -53,13 +53,6 @@ h1 {
   	font-style: normal;
 	color: #482925;
 		}
-h4 {
-	font-family: "Yeseva One", serif;
-  	font-weight: bolder;
-  	font-style: normal;
-	color: #482925;
-	font-size: 19pt;
-}
 
 h2 {
 	font-family: "Yeseva One", serif;
@@ -75,13 +68,27 @@ h3 {
 	font-size: x-large;
 }
 
+h4 {
+	font-family: "Yeseva One", serif;
+  	font-weight: bolder;
+  	font-style: normal;
+	color: #482925;
+	font-size: 19pt;
+}
+
+
 h5 {
 	font-family: "Yeseva One", serif;
   	font-style: normal;
 	color: #482925;	
 }
 
-
+h6 {
+	font-family: "Yeseva One", serif;
+  	font-style: normal;
+	color: #482925;
+	padding-right: 45%
+}
 
 .rightAlign {
 	float: right;
@@ -160,8 +167,7 @@ br {
 	padding-bottom: 3%;
 }
 
-.imgBackground {
-}
+
 
 .pullQuote {
 	padding-left: 17%;
@@ -197,7 +203,7 @@ br {
 .typographyOne {
 	margin-left: 13%;
 	margin-right: 13%;
-	padding-bottom: 80px;
+	padding-bottom: 5%;
 }
 
 .typographyTwo {
@@ -208,8 +214,7 @@ br {
 	padding-top: 2%;
 	padding-bottom:4%;
 	border-radius: 50px;
-	color: #e5d7c3;
-	background-color: #7d8973;
+	background-color: #ccb08a;
 }
 
 .typographyThree {
@@ -254,8 +259,7 @@ br {
 .listTypography {
 	position: relative;
 	float: right;
-	color: #e5d7c3;
-	background-color: #7d8973;
+	background-color: #ccb08a;
 	margin-left: 18%;
 	margin-right: 18%;
 	margin-bottom: 3%;
@@ -267,23 +271,18 @@ br {
 	border-radius: 50px;
 }
 
-
-.subheaderSpecialTypography {
-	padding-left: 150px;
-	color: #5e3a1e;
-}
-
 .planingWebTypography {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #5e3a1e;
+	color: #482925;
 }
 
 .imgcenter {
 	display: block;
  	margin-left: auto;
  	margin-right: auto;
+	padding-top: 3%;
 	padding-bottom: 2%;
 
 }
@@ -321,12 +320,10 @@ br {
 .colorOne {
 	margin-left: 15%;
 	margin-right: 15%;
-
 	padding-top: 3%;
 	padding-bottom:3%;
 	border-radius: 50px;
-	color: #e5d7c3;
-	background-color: #7d8973;
+	background-color: #ccb08a;
 }
 
 .colorTwo {
@@ -363,12 +360,26 @@ br {
 	padding-bottom: 3%;
 }
 
+img[src="img/ColorHeader.png"] {
+	padding-top: 8%;
+	padding-bottom: 15%;
+}
+
+
+.principlesIntro {
+	margin-left: 13%;
+	margin-right: 13%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-radius: 50px;
+	background-color: #ccb08a;
+}
+
 .principlesOne {
 	margin-left: 13%;
 	margin-right: 13%;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	background-color:
 }
 
 .principlesTwo {
@@ -400,10 +411,14 @@ br {
 }
 
 .principlesSix {
-	margin-left: 13%;
-	margin-right: 13%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	    padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom:4%;
+	border-radius: 50px;
+	background-color: #ccb08a;
 }
 
 .principlesSeven {
@@ -466,18 +481,21 @@ img[src="img/StefanoPeschiera.jpg"] {
 	float: left;
 }
 
+img[src="img/PrinciplesHeader.png"] {
+	padding-bottom: 15%;
+}
+
 .aboutIntro {
 	margin-left: 13%;
 	margin-right: 13%;
-	padding-top: 15%;
+	padding-top: 3%;
 	padding-bottom: 3%;	
 }
 
 .aboutDescription {
 	margin-left: 13%;
 	margin-right: 13%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 5%;
 }
 
 .aboutBio {
